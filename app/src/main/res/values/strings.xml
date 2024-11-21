@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">marvelApp</string>
+
+    <string name="bad_request">bad request</string>
+    <string name="server_error">"server error "</string>
+    <string name="no_internet_connection_error">No internet Connection</string>
+    <string name="someting_wrong">Something wrong</string>
+    <string name="responseProblem_wrong">Json Error</string>
+    <string name="unAuthentication">unauth user</string>
+    <string name="not_found">not found</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chose_cities">choose a citiy</string>
+    <string name="search">search</string>
+    <string name="not_data_found">not data found</string>
+    <string name="below_data_may_not_accurte_please_try_again_later_to_fetch_accurte_date">below data may not accurte please try again later to fetch accurte date.</string>
+    <string name="try_again">try again</string>
+    <string name="main_logo_description">main logo description</string>
+    <string name="search_icon_for_characters">search icon for characters</string>
+    <string name="charachter_background_describtion">charachter background describtion</string>
+    <string name="results_could_not_be_loaded">Results could not be loaded</string>
+    <string name="retry">Retry</string>
+    <string name="name">Name</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="COMICS">COMICS</string>
+    <string name="SERIES">SERIES</string>
+    <string name="STORIES">STORIES</string>
+    <string name="EVENT">EVENTS</string>
+    <string name="RELEATED_LINKS">RELATED LINKS</string>
+    <string name="Detail">Detail</string>
+    <string name="Wiki">Wiki</string>
+    <string name="ComicLink">ComicLink</string>
+</resources>

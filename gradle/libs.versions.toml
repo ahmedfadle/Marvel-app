@@ -1,0 +1,105 @@
+[versions]
+agp = "8.6.0"
+hiltLifecycleViewmodelVersion = "1.0.0-alpha03"
+jsoup = "1.14.3"
+kotlin = "1.9.23"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+navigationKtx = "2.5.0"
+lifecycleLivedataktx = "2.7.0"
+navigationSafeArgsGradlePlugin = "2.7.7"
+
+roomCompilerVersion = "2.6.1"
+timber = "4.7.1"
+ksp = "1.9.23-1.0.20"
+
+
+#network versions
+retrofit = "2.9.0"
+moshi = "1.15.0"
+okhttp = "4.12.0"
+loggingService = "3.0.0"
+
+
+hilt = "2.48"
+
+kotlinxCoroutinesPlayServices = "1.4.1"
+
+gson = "2.9.0"
+runtimeLivedata = "1.6.8"
+lifecycleViewModlektx = "2.7.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomCompilerVersion" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomCompilerVersion" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "hilt" }
+hilt-lifecycle-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hiltLifecycleViewmodelVersion" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationKtx" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationKtx" }
+
+#Timber
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompilerVersion" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+
+#lifecycle kts
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataktx" }
+androidx-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "runtimeLivedata" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleViewModlektx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewModlektx" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "lifecycleViewModlektx" }
+
+#plugin classpath dependencies
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }
+
+#okkhttp
+square-okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+square-loggingInterceptor = { group = "com.github.ihsanbal", name = "LoggingInterceptor", version.ref = "loggingService" }
+square-mock-web-server = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp" }
+square-okhttp-tls = { group = "com.squareup.okhttp3", name = "okhttp-tls", version.ref = "okhttp" }
+
+
+#Retrofit
+square-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+square-adapter-rxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofit" }
+square-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+
+
+hilt-android-gradle-plugin = { group = "com.google.dagger",name = "hilt-android", version.ref = "hilt" }
+hilt-compiler-gradle-plugin = { group = "com.google.dagger",name = "hilt-compiler", version.ref = "hilt" }
+
+
+kotlinx-coroutines-play-services = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-play-services", version.ref ="kotlinxCoroutinesPlayServices" }
+
+
+#Google
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+kotlin-hilt= { id = "dagger.hilt.android.plugin"}
+android-hilt= { id = "com.google.dagger.hilt.android",version.ref = "hilt"}
+kotlin-aandroid-extensions= { id = "kotlin-android-extensions", version.ref = "kotlin" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+

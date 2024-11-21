@@ -1,0 +1,10 @@
+<!-- res/drawable/parallelogram_vector.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="50dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M20,0 L200,0 L180,100 L0,100 Z" /> <!-- Defines the parallelogram shape -->
+</vector>
